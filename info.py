@@ -67,7 +67,7 @@ OPENAI_API = environ.get("OPENAI_API","")
 AI = is_enabled((environ.get("AI","True")), False)
 LAZY_AI_LOGS = int(environ.get("LAZY_AI_LOGS","")) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of LazyPrincess ]
 # Requested Content template variables ---
-ADMIN_USRNM = environ.get('ADMIN_USRNM','Blank_blankx') # WITHOUT @
+ADMIN_USRNM = environ.get('ADMIN_USRNM','Netflix_india_007') # WITHOUT @
 MAIN_CHANNEL_USRNM = environ.get('MAIN_CHANNEL_USRNM','MovizTube') # WITHOUT @
 DEV_CHANNEL_USRNM = environ.get('DEV_CHANNEL_USRNM','blank_blankx') # WITHOUT @
 LAZY_YT_HANDLE = environ.get('LAZY_YT_HANDLE','ultroidofficial')  # WITHOUT @ [  add only handle - don't add full url  ] 
@@ -88,7 +88,7 @@ MY_USERS = (my_users) if my_users else []
 # Online Stream and Download
 PORT = int(environ.get('PORT', 8080))
 NO_PORT = bool(environ.get('NO_PORT', False))
-APP_NAME = None
+APP_NAME = darlingnetflix
 if 'DYNO' in environ:
     ON_HEROKU = True
     APP_NAME = environ.get('APP_NAME')
